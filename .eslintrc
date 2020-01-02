@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "wesbos"
+  ],
+  "rules": {
+    "react/destructuring-assignment": {
+      "ignoreClassFields": true
+    },
+    "no-restricted-globals": 0,
+    "import/no-cycle": false,
+    "no-plusplus": 0,
+    "react/no-unused-state": false,
+    "react/button-has-type": false,
+    "react/prop-types": false,
+  }
+}
